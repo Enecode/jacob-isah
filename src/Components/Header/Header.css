@@ -1,0 +1,69 @@
+/* Style the nav container */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Style the nav logo */
+.home{
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    /* background-color:unset; */
+    cursor: pointer;
+}
+
+button > a{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    /* background-color:unset; */
+    cursor: pointer;
+}
+
+/* Style the article nav */
+.article{
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+}
+
+/* style the project */
+.projects{
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Style the youtube */
+.youtube{
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
