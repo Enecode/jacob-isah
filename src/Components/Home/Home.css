@@ -1,0 +1,140 @@
+/* Style Home container */
+
+.home-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+}
+
+
+
+
+
+/* Style the photo to include zoom and add border radius */
+
+.myphoto {
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid rgb(17, 29, 255);
+    box-shadow: 0 3px 20px rgba(0,0,0,.1);
+}
+
+.myphoto:hover {
+    transform: scale(1.5);
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+
+strong{
+    font-family: Switzer,sans-serif;
+    font-weight: 700;
+}
+
+.header-title{
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+}
+/* Style the about paragragh. the text should be justified */
+.about-paragraph {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+    letter-spacing: .02em;
+}
+
+.about-me{
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+    text-align: center;
+}
+
+.social-button{
+    padding: 10px 10px;
+    display: flex;
+    justify-self: space-between;    
+    font-size: 16px;
+    cursor: pointer;
+    gap: 50px;
+    justify-content: center;    
+}
+
+.github-Icon{
+    color: #171515 ;
+}
+
+.linkedin-Icon{
+    color: #0072b1;
+}
+.twitter-Icon{
+    color: #00acee;
+} 
+
+.youtube-Icon{
+    color: #ff0000;
+}
+
+.heading{
+   max-width: 800%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.myproject  {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+.myproject-holder::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.project-container-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    max-width: 900px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.1);
+    text-align: center;
+  }
+  
+@media screen and (max-width: 900px) {
+    .project-container-holder {
+      width: 100%;
+    }
+  }
+  
