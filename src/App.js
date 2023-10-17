@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Projects from './Components/Project/Projects';
+import Youtube from './Components/Youtube/Youtube';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Projects />} />
+        <Route path="/youtube" element={<Youtube />} />
       </Routes>
     </Router>
   );
