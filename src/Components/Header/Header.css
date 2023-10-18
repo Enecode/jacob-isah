@@ -1,69 +1,111 @@
-/* Style the nav container */
 
-.nav-container{
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.left a{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.right {
+  order: 3;
+  display: flex;
+  background-color: #000;
+  color: #fff;
+}
+
+.right a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dark-mode-toggle {
+  order: 2;
+  cursor: pointer;
+}
+
+.dark-mode-toggle img {
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 170px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+  .right {
+    display: none;
+    color: #fff;
+  }
+
+  .left {
+    order: 2;
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  .dark-mode-toggle {
+    order: 3;
+  }
+}
+
+
+.mobile-menu-toggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .right {
+    display: none;
+  }
+
+  .left {
+    order: 2;
+    color: #fff;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+    order: 1;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .show {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    height: 10vh;
+    flex-direction: column;
     background-color: #000;
-    color: #fff;
-}
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+  }
 
-/* Style the nav logo */
-.home{
-    font-size: 2rem;
-    font-weight: 500;
-    background-color: #000;
+  .show a {
     color: #fff;
-}
-
-button{
-    font-size: 1rem;
-    font-weight: 700;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    /* background-color:unset; */
-    cursor: pointer;
-}
-
-button > a{
-    font-size: 1rem;
-    font-weight: 700;
-    background-color: #000;
-    color: #fff;
-    border: none;
+    padding: 10px;
     text-decoration: none;
-    /* background-color:unset; */
-    cursor: pointer;
+  }
+
+  .dark-mode-toggle {
+    order: 3;
+  }
 }
 
-/* Style the article nav */
-.article{
-    font-size: 1.3rem;
-    font-weight: 700;
-    background-color: #000;
-    color: #fff;
+/* Styles for the menu icon */
+.mobile-menu-toggle i {
+  color: #fff;
+  cursor: pointer;
 }
 
-/* style the project */
-.projects{
-    font-size: 1.3rem;
-    font-weight: 700;
-    background-color: #000;
-    color: #fff;
+.mobile-menu-toggle .open {
+  display: none;
 }
-
-/* Style the youtube */
-.youtube{
-    font-size: 1.3rem;
-    font-weight: 700;
-    background-color: #000;
-    color: #fff;
-}
-
-
-
-
 
