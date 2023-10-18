@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div className="project-container">
       <h1 className="title-heading">Projects</h1>
-      {/* Create a container that holds cards. Each card has image, project title, project description and github link and external link */}
+      
       <div className="project-cards">
         <div className="project-card">
           <img className="project-image" src={ewallet} alt="project" />
