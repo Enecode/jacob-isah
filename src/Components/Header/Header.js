@@ -1,12 +1,11 @@
-import { Link } from 'react-router-dom'
-import './Header.css'
-import '../../dark-mode.css'
 import React, { useState, useEffect } from 'react';
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faMoon } from "@fortawesome/free-brands-svg-icons";
+import "./Header.css"
+import  '../../dark-mode.css'
+import darkmodeimage from '../image/darkmodeimage.jpg'
 
-function Header() {
+function Header (){
   const [darkMode, setDarkMode] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     if (darkMode) {
@@ -20,36 +19,29 @@ function Header() {
     setDarkMode(!darkMode);
   };
 
-  return (
-    <div className="nav-container">
-      <button className="home">
-        <Link className="home" to="/">
-          Jacob Isah
-        </Link>
-      </button>
-      
-      <div className="content-container">
-      <button className="article">
-          <Link className="article" to="/article">
-            Article
-          </Link>
-        </button>
-        
-        <button className="projects">
-          <Link className="projects" to="/project">
-            Projects
-          </Link>
-        </button>
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
 
-        <button className="youtube">
-          <Link className="youtube" to="/youtube">
-            Youtube
-          </Link>
-        </button>
-        <button className="darkmood" onClick={toggleDarkMode}>darkMode</button>
+  return (
+    <div className={`nav ${darkMode ? 'dark-mode' : ''}`}>
+      <div className="left">
+        <a href="/">Home</a>
+      </div>
+      <div className={`right ${showMenu ? 'show' : ''}`}>
+        <a href="/article">Article</a>
+        <a href="/project">Project</a>
+        <a href="/youtube">Youtube</a>
+      </div>
+      <div className="mobile-menu-toggle" onClick={toggleMenu}>
+        <i className={`fas fa-bars ${showMenu ? 'open' : ''}`}></i>
+        Menu
+      </div>
+      <div className="dark-mode-toggle" onClick={toggleDarkMode}>
+        <img src={darkmodeimage} alt="Dark Mode Toggle" />
       </div>
     </div>
   );
-}
+};
 
 export default Header;
