@@ -13,7 +13,6 @@ function Projects() {
   return (
     <div className="project-container">
       <h1 className="title-heading">Projects</h1>
-      
       <div className="project-cards">
         <div className="project-card">
           <img className="project-image" src={ewallet} alt="project" />
@@ -82,8 +81,6 @@ function Projects() {
           </div>
         </div>
       </div>
-      
-
     </div>
   );
 }
