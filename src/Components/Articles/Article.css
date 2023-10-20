@@ -1,0 +1,104 @@
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.title-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.article-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+  }
+  
+.article-card {
+    box-shadow: 0 4px 8px 0 rgba(86, 174, 255, 1);
+    /* margin: 10px; */
+    justify-items: space-around;
+    padding: 10px;
+    width: calc(32%);
+    text-align: center;
+    font-family: arial;
+    /* background-color: red; */
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+.article-description{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.readmore-link {
+  margin-top: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #051d40;
+  color: #56aeff;
+  font-size: medium;
+  border: 1px solid #56aeff;
+  border-radius: 5px;
+}
+
+.readmore-link:hover {
+  background-color: #56aeff;
+  color: white;
+  
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .article-card {
+      width: calc(50% - 20px);
+      height: auto;
+    }
+  }
+
+@media (max-width: 480px) {
+    .article-card {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  /* add responsiveness when the  width is 320 and hight is 497 */
+/* 
+@media (max-width: 320px) and (max-height: 497px) {
+    .article-card {
+      width: 100%;
+      height: auto;
+    }
+  }  */
+
+@media screen and (max-width: 768px) {
+    .article-container {
+      flex-direction: column;
+    }
+
+    .article-image{
+        /* width: 100%; */
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+  }
