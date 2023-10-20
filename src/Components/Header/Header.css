@@ -109,3 +109,33 @@
   display: none;
 }
 
+@media screen and (max-width: 600px) {
+  .mobile-menu-toggle .open {
+    display: none;
+  }
+
+  .mobile-menu-toggle .close {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .mobile-menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .left {
+    display: none;
+  }
+}
+
+
+/* 
+@media screen and (min-width: 768) {
+  .mobile-menu-toggle {
+    display: none;
+  }
+} */
+
