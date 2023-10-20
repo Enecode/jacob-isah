@@ -137,4 +137,23 @@ strong{
       width: 100%;
     }
   }
+
+@media screen and (max-width: 600px) {
+    .project-container-holder {
+      width: 100%;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .project-container-holder {
+      width: 100%;
+    }
+  }
+
+
+@media screen and (max-width: 320px) {
+    .project-container-holder {
+      width: 100%;
+    }
+  }
   
