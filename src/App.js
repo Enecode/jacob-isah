@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Projects from './Components/Project/Projects';
 import Youtube from './Components/Youtube/Youtube';
+import Article from './Components/Articles/Article';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Projects />} />
         <Route path="/youtube" element={<Youtube />} />
+        <Route path="/article" element={<Article />} />
       </Routes>
     </Router>
   );
