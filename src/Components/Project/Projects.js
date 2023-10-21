@@ -17,7 +17,7 @@ function Projects() {
         <div className="project-card">
           <img className="project-image" src={ewallet} alt="project" />
           <h3 className="title">E-wallet app</h3>
-          <p>
+          <p className="project-description">
             E-wallet is a web app that allows users to send and receive money from their friends and family.
           </p>
 
