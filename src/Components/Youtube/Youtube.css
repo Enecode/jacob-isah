@@ -21,14 +21,14 @@ iframe {
   
 @media (max-width: 768px) {
     .youtube-video {
-      width: calc(50% - 20px);
-      height: auto;
+      width: calc(80%);
+      /* height: 60%; */
     }
   }
 
 @media (max-width: 480px) {
     .youtube-video {
       width: 100%;
-      height: auto;
+      /* height: auto; */
     }
   }
