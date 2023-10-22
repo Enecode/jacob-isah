@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jacob-isah/static/css/main.7aada84d.css",
+    "main.js": "/jacob-isah/static/js/main.70ffe5c7.js",
+    "static/js/787.d0fc6f61.chunk.js": "/jacob-isah/static/js/787.d0fc6f61.chunk.js",
+    "static/media/ResturantLandingPage.png": "/jacob-isah/static/media/ResturantLandingPage.8f4dcce8c6557eafa35a.png",
+    "static/media/myimage.jpg": "/jacob-isah/static/media/myimage.e3df6edb17c98aafb03e.jpg",
+    "static/media/myportfolio.png": "/jacob-isah/static/media/myportfolio.d4de8bed5aa0f6ae7399.png",
+    "static/media/the-Basics-of-Objects-and-Methods-in-In-Java.png": "/jacob-isah/static/media/the-Basics-of-Objects-and-Methods-in-In-Java.5006a331d1e538f3b5cb.png",
+    "static/media/ArrayList-vs-Array-In-Java.png": "/jacob-isah/static/media/ArrayList-vs-Array-In-Java.d30b9e83e7a7b22d118e.png",
+    "static/media/Functions-in-Python.png": "/jacob-isah/static/media/Functions-in-Python.2bc6a9aa117bed2b18d0.png",
+    "static/media/List-comprehension-in-Python.png": "/jacob-isah/static/media/List-comprehension-in-Python.1ff09481b7f2d4aee09b.png",
+    "static/media/developerprofile.png": "/jacob-isah/static/media/developerprofile.3f025c16bc95706c83ba.png",
+    "static/media/projec.png": "/jacob-isah/static/media/projec.840451a9c90b1c444e7e.png",
+    "static/media/External_link_image.png": "/jacob-isah/static/media/External_link_image.31b08565d49409bf3bfe.png",
+    "static/media/darkmodeimage.jpg": "/jacob-isah/static/media/darkmodeimage.fae1fb439f2f7654e51b.jpg",
+    "index.html": "/jacob-isah/index.html",
+    "main.7aada84d.css.map": "/jacob-isah/static/css/main.7aada84d.css.map",
+    "main.70ffe5c7.js.map": "/jacob-isah/static/js/main.70ffe5c7.js.map",
+    "787.d0fc6f61.chunk.js.map": "/jacob-isah/static/js/787.d0fc6f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aada84d.css",
+    "static/js/main.70ffe5c7.js"
+  ]
+}
