@@ -10,13 +10,23 @@ function App() {
   return (
     <Router>
       <Header />
+      <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Projects />} />
         <Route path="/youtube" element={<Youtube />} />
         <Route path="/article" element={<Article />} />
-      </Routes>
-    </Router>
+      </Routes>   </Router>   
+    // <Router>
+    //   <Header />
+    //   <Home />
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/project" element={<Projects />} />
+    //     <Route path="/youtube" element={<Youtube />} />
+    //     <Route path="/article" element={<Article />} />
+    //   </Routes>
+    // </Router>
   );
 }
 
