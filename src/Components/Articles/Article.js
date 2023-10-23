@@ -12,7 +12,7 @@ function Article() {
         <h1 className="title-heading">Articles</h1>
         <div className="article-cards">
             <div className="article-card">
-                <img className="article-image" src={pythonfunction} alt="Functions in Python" />
+                {/* <img className="article-image" src={pythonfunction} alt="Functions in Python" /> */}
                 <h3 className="title">Functions in Python</h3>
                 <p className="article-description">
                     In this article, we will be building a simple e-wallet app with React and Node.js. The app will allow users to send and receive money from their friends and family.
@@ -23,7 +23,7 @@ function Article() {
             </div>
 
             <div className="article-card">
-                <img className="article-image" src={pythonfunction} alt="Functions in Python" />
+                {/* <img className="article-image" src={pythonfunction} alt="Functions in Python" /> */}
                 <h3 className="title">Functions in Python</h3>
                 <p className="article-description">
                     In this article, we will be building a simple e-wallet app with React and Node.js. The app will allow users to send and receive money from their friends and family.
@@ -34,7 +34,7 @@ function Article() {
             </div>
 
             <div className="article-card">
-                <img className="article-image" src={listcomprehension} alt="Functions in Python" />
+                {/* <img className="article-image" src={listcomprehension} alt="Functions in Python" /> */}
                 <h3 className="title">List comprehension in Python</h3>
                 <p className="article-description">
                     A list comprehension is surrounded by square brackets as well, but instead of data, expressions are entered, followed by for-loops and if clauses.
@@ -45,7 +45,7 @@ function Article() {
             </div>
 
             <div className="article-card">
-                <img className="article-image" src={arraylist} alt="Functions in Python" />
+                {/* <img className="article-image" src={arraylist} alt="Functions in Python" /> */}
                 <h3 className="title">ArrayList vs Array In Java</h3>
                 <p className="article-description">
                     When should an Arrayor an Arraylist be used? What is the difference between constructing an Array and an ArrayList? In this post, I'll explain how these two forms of arrays work and let you chose which to use at the end.
@@ -56,7 +56,7 @@ function Article() {
             </div>
 
             <div className="article-card">
-                <img className="article-image" src={javaBasics} alt="Functions in Python" />
+                {/* <img className="article-image" src={javaBasics} alt="Functions in Python" /> */}
                 <h3 className="title">Exploring the Basics of Objects and Methods in Java</h3>
                 <p className="article-description">
                     In this article, I'll explain the fundamentals of Java objects and methods and help you understand how they work.
