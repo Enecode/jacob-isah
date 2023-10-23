@@ -31,13 +31,13 @@ function Header (){
       </div>
       <div className={`right ${showMenu ? 'show' : ''}`}>
 
-        <a href="/article">
+        <a href="#article">
           <Link className="registration-text" to='/article' >Article</Link>
         </a>
-        <a href="/project">
+        <a href="#project">
           <Link to='/project'> Project </Link>
         </a>
-        <a href="/youtube">
+        <a href="#youtube">
           <Link to='/youtube'> Youtube</Link>
         </a>
       </div>
