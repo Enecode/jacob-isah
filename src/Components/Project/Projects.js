@@ -15,7 +15,7 @@ function Projects() {
       <h1 className="title-heading">Projects</h1>
       <div className="project-cards">
         <div className="project-card">
-          <img className="project-image" src={ewallet} alt="project" />
+          {/* <img className="project-image" src={ewallet} alt="project" /> */}
           <h3 className="title">E-wallet app</h3>
           <p className="project-description">
             E-wallet is a web app that allows users to send and receive money from their friends and family.
@@ -30,7 +30,7 @@ function Projects() {
 
 
         <div className="project-card">
-          <img className="project-image" src={myportfolio} alt="project" />
+          {/* <img className="project-image" src={myportfolio} alt="project" /> */}
           <h3 className="title">Personal portfolio site</h3>
           <p className="project-description">
             This is my personal portfolio site. It contains my bio, projects and contact information. 
@@ -49,7 +49,7 @@ function Projects() {
 
 
         <div className="project-card">
-          <img className="project-image" src={devprofile} alt="project" />
+          {/* <img className="project-image" src={devprofile} alt="project" /> */}
           <h3 className="title">Developer's Profile</h3>
           <p className="project-description">
             The web app shall provide a platform for companies seeking interns, full-time employees, or contract developers to view and access developers' profiles.
@@ -64,7 +64,7 @@ function Projects() {
 
 
         <div className="project-card">
-          <img className="project-image" src={ResturantLandingPage} alt="project" />
+          {/* <img className="project-image" src={ResturantLandingPage} alt="project" /> */}
           <h3 className="title">Chicken Restaurant Landing Page</h3>
           <p className="project-description">
             Chicken Restaurant Landing Page built with pure HTML and CSS.

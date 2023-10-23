@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./Header.css"
+import { Link } from 'react-router-dom'
 import  '../../dark-mode.css'
 import darkmodeimage from '../image/darkmodeimage.jpg'
 
@@ -29,9 +30,16 @@ function Header (){
         <a href="/">Home</a>
       </div>
       <div className={`right ${showMenu ? 'show' : ''}`}>
-        <a href="/article">Article</a>
-        <a href="/project">Project</a>
-        <a href="/youtube">Youtube</a>
+
+        <a href="/article">
+          <Link className="registration-text" to='/article' >Article</Link>
+        </a>
+        <a href="/project">
+          <Link to='/project'> Project </Link>
+        </a>
+        <a href="/youtube">
+          <Link to='/youtube'> Youtube</Link>
+        </a>
       </div>
       <div className="mobile-menu-toggle" onClick={toggleMenu}>
         <i className={`fas fa-bars ${showMenu ? 'open' : ''}`}></i>
