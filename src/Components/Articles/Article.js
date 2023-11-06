@@ -1,9 +1,9 @@
 import React from 'react';
 import './Article.css';
-import pythonfunction from '../image/Functions-in-Python.png';
-import arraylist from '../image/ArrayList-vs-Array-In-Java.png';
-import listcomprehension from '../image/List-comprehension-in-Python.png';
-import javaBasics from '../image/the-Basics-of-Objects-and-Methods-in-In-Java.png';
+// import pythonfunction from '../image/Functions-in-Python.png';
+// import arraylist from '../image/ArrayList-vs-Array-In-Java.png';
+// import listcomprehension from '../image/List-comprehension-in-Python.png';
+// import javaBasics from '../image/the-Basics-of-Objects-and-Methods-in-In-Java.png';
 
 
 function Article() {

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Project.css';
-import ewallet from'../image/projec.png';
-import myportfolio from '../image/myportfolio.png';
+// import ewallet from'../image/projec.png';
+// import myportfolio from '../image/myportfolio.png';
 import portfoliolink from '../image/External_link_image.png';
-import devprofile from '../image/developerprofile.png';
-import ResturantLandingPage from '../image/ResturantLandingPage.png';
+// import devprofile from '../image/developerprofile.png';
+// import ResturantLandingPage from '../image/ResturantLandingPage.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
